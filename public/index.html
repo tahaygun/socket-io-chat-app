@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chat.io</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="mario-chat">
+        <h2>Socket.io chat example</h2>
+        <p>
+            <span id="users"></span>
+            Online
+        </p>
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <form id="myform">
+            <input id="handle" required type="text" placeholder="Name" />
+            <input id="message" autocomplete="off" required type="text" placeholder="Message" />
+            <button type="submit" id="send">Send</button>
+        </form>
+    </div>
+
+</body>
+<script src="/chat.js"></script>
+
+</html>
