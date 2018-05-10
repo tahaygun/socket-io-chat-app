@@ -52,7 +52,7 @@ socket.on("chat", data => {
   var date = formatAMPM(new Date());
   feedback.innerHTML = "";
   output.innerHTML +=
-    "<p><strong>" +
+    "<p class='messagetext' ><strong>" +
     data.handle +
     ": </strong>" +
     data.message +

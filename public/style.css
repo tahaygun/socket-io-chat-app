@@ -2,10 +2,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h2,
-p {
+.onlineUsers {
   display: inline-block;
 }
-p {
+.onlineUsers {
   padding: 10px;
   float: right;
   font-size: 11px;
@@ -66,8 +66,10 @@ input {
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #eee;
-  font-family: Nunito;
   font-size: 16px;
+}
+.messagetext {
+  overflow: auto;
 }
 
 button {
